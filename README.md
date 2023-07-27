@@ -87,4 +87,5 @@ replace_symbols_with_entrez_ids(gmt_file, gene_symbol_map, output_file)
 cat("Gene symbols replaced with Entrez IDs and output written to", output_file, "\n")
 }
 
-# To run the script from the command line 
+# To run the script from the command line put the comand:
+./convert_gmt_to_entrez.R Homo_sapiens.gene_info.gz h.all.v2023.1.Hs.symbols.gmt
