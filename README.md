@@ -1,4 +1,4 @@
-# Gene_name_change_script
+# Convert_gmt_to_entre
 The R script converts a GMT file (gene symbols) to a new GMT file with Entrez IDs. It requires 'gene_info' and 'gmt_file' as inputs, creates a mapping, replaces symbols with IDs, and writes output. Run as 'Rscript script.R gene_info gmt_file'.
 
 # Here is the full command of the convert_gmt_to_entrez.R file which I have provided:
